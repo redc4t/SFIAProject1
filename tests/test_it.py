@@ -25,7 +25,7 @@ class TestBase(TestCase):
         test_user = User(
             username = "steve",
             email =  "steve@steve.com",
-            password = "Vueling"
+            password = "fueling"
         )
         db.session.add(test_user) 
         db.session.commit()
