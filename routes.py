@@ -4,19 +4,19 @@ from SFIAProject1.forms import RegistrationForm, LoginForm
 from SFIAProject1.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 
-## Dummy Data
+
 posts = [
     {
-        'author': 'Shaine Walsh',
-        'title': 'Blog Post 1',
-        'content': 'First post content',
-        'date_posted': 'Sept 10, 2021'
+        'author': 'Some yung guy',
+        'title': 'Double or nufin',
+        'content': 'my head hurts',
+        'date_posted': 'sept 11, 2021'
     },
     {
-        'author': 'Jane Doe',
-        'title': 'Blog Post 2',
-        'content': 'Second post content',
-        'date_posted': 'Sept 10, 2021'
+        'author': 'shaine walsh',
+        'title': 'Blog test',
+        'content': 'it works, hopefully',
+        'date_posted': 'Sept 11, 2021'
     }
 ]
 
